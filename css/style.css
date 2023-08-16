@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    padding: .5px;
+    height: 50%;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+   
+
+
+
+}
+
+.nav-list li {
+    list-style: none;
+    cursor: pointer;
+    padding: 2.5rem 3rem;
+    
+    
+
+
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: aliceblue;
+    
+
+
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 2rem;
+    
+
+}
+
+.nav-background{
+    /* background: rgba(13, 111, 95, 0.662)url('https://media.istockphoto.com/id/1155436829/photo/business-concept-clean-bright-light-blue-office-table-desk-minimal-style-with-laptop-coffee.jpg?s=612x612&w=0&k=20&c=jTiNkwRIyJpdUuxKenaDy6I5vK70ScrYQZuWFhAvTw8=');  */
+    background-size: cover;
+    background-blend-mode:darken;
+    background-color: black;
+    
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+    padding: 1rem;
+    margin-bottom: 0.6rem;
+    border-color: whitesmoke;
+display: flex;
+
+
+
+}
+
+.rightnav input{
+    font-size: 0.6rem;
+    border: 2rem solid rgb(239, 255, 192);
+    height: 3.5rem;
+    
+}
+
+
+.rightnav  input button{
+    align-items: center;
+    color: #000909;
+    
+}
+#search {
+    padding: 0.5rem;
+    font-size: 1.7rem;
+    border: 2px solid rgba(240, 0, 0, 0.347);
+    border: 0.9rem;
+    margin-bottom: 0.8rem;
+
+}
+
+.logo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 70%;
+    border: 3px solid rgb(43, 55, 59);
+    border-radius: 5rem;
+    border-radius: 15rem;
+
+
+}
+
+
+
+
+
+
+.head {
+
+    /* color: #3b5998; */
+    display: grid;
+    justify-content: start;
+    align-items: center;
+
+
+
+}
+
+.head h2 {
+    font-size: 1.5rem;
+    font-weight: 20rem;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#05dad2, rgba(186, 222, 192, 0.986));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 3rem;
+    font-size: 3rem;
+
+}
+
+.head h2 span {
+    font-size: 5.5rem;
+    
+
+}
+
+.box-main{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    max-width: 50%;
+    padding: 15rem;
+    margin: auto;
+    /* font-family: 'Segoe UI',Tehoma,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.background{
+    background: rgba(243, 27, 182, 0.063)url('https://media.istockphoto.com/id/1401946018/photo/a-cup-of-tea-during-work-is-perfect.jpg?s=612x612&w=0&k=20&c=X95vFvW5GTXZwjUGCgPGZP117qRoJmgQnNOBvDEouAo='); 
+    background-size: cover;
+    background-blend-mode:darken;
+    
+   
+}
+
+.firstsection{
+    height: 100vh;
+    color: aquamarine;
+    
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 30%;
+
+
+}
+
+.secondHalf img{
+    width: 70%;
+    border-radius: 15rem;
+    border: 0.4rem solid white;
+    display: block;
+    margin: auto;
+}
+
+
+.text-big{
+    font-size: 3.5rem;
+}
+
+
+.text-small{
+    font-size: 1.8rem;
+    color: black;
+
+}
+
+.buttons button{
+    padding: 0.3rem 0;
+    width: 13rem;
+    margin-top: 2rem;
+}
+
+.btn{
+    border: 0.2rem solid white;
+    border-radius: 0.8rem;
+    padding: 0.8rem 2rem;
+    margin: 0.7rem 0.8rem;
+    cursor: pointer;
+    /* background: none; */
+    color: rgb(10, 43, 71);
+    margin-top: 0;
+    
+
+}
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 1.5rem;
+    display: none;
+
+}
+
+.line{
+    width: 3.3rem;
+    background-color:white;
+    height: 0.4rem;
+    margin: 0.5rem 0.3rem;
+
+}
+
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.paras{
+    padding:  5.5rem;
+}
+
+.section-left{
+   flex-direction: row-reverse;
+}
+.sectionSubTag{
+    padding:  1.6rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.thumbnail img{
+    width: 35rem;
+    border:0.2rem solid black;
+    border-radius: 2.6rem;
+    margin-top: 1.9rem;
+    
+    
+}
+
+.contact{
+    background-color: gainsboro;
+    height: 43vh;
+
+}
+
+.con{
+    text-align: center;
+    display: block;
+    margin: 2.5rem;
+    padding-top: 3rem ;
+    height: 83.3rem;
+    font-size: 3.5rem;
+
+}
+
+.form{
+    max-width: 120rem;
+    margin:  auto;
+    padding: 1.4rem;
+}
+
+.form-input{
+    margin: 2rem 0;
+    width: 100%;
+    font-size: 1.9rem;
+    border: 0.2rem solid black;
+    border-radius: 0.6rem;
+    height: 5rem;
+    text-align: center;
+
+}
+
+.form  textarea{
+    height: 30rem;
+}
+
+.btn-dark{
+    border: 0.2rem solid black;
+    align-items: center;
+    border-radius: 0.6rem;
+    margin-top: 2rem;
+    
+
+
+}
+
+.text-footer{
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+    color: whitesmoke
+    
+}
+
+
+ 
+
+
+    
+ @media (max-width:1329px) {
+
+    html{
+        font-size: 45%;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .navbar{
+        flex-direction: column;
+        transition: all 5.7s ease-out;
+        height: 70rem;
+        
+    }
+    
+    .rightnav{
+        text-align: center;
+        margin-right: 15rem;
+    }
+
+    .box-main{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+   
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 7.2rem;
+    }
+
+    .v-class-resp{
+        opacity: 0;
+
+    }
+
+    .section{
+        flex-direction: column-reverse;
+    
+
+    }
+
+    .text-big{
+        text-align: center;
+    }
+
+    .text-small{
+        text-align: center;
+    }
+
+    .buttons{
+        text-align: center;
+    }
+    .paras{
+        padding: 0 0.1rem;
+    }
+ }
